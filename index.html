@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MortuaryLog</title>
+<meta name="robots" content="index, follow">
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #fbfbf9; --fg: #16151a; --dim: #5d5b66; --line: #e2e0da;
+  --card: #ffffff; --accent: #2f5d50;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #14151a; --fg: #ecebe6; --dim: #a3a1ac; --line: #2c2d36;
+          --card: #1b1c23; --accent: #8fc4b2; }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 16px/1.65 ui-serif, Georgia, "Times New Roman", serif;
+  -webkit-text-size-adjust: 100%;
+}
+.wrap { max-width: 44rem; margin: 0 auto; padding: 3.5rem 1.4rem 6rem; }
+h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 .4rem; text-wrap: balance; }
+h2 { font-size: 1.15rem; margin: 2.6rem 0 .6rem; text-wrap: balance;
+     letter-spacing: -0.01em; }
+p, li { margin: .75rem 0; }
+ul { padding-left: 1.15rem; }
+li::marker { color: var(--dim); }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2.4rem 0; }
+code { font: 0.88em/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+       background: var(--card); border: 1px solid var(--line);
+       border-radius: 4px; padding: .1em .35em; }
+strong { font-weight: 700; }
+em { color: var(--dim); font-style: normal; font-size: .92em; }
+a { color: var(--accent); }
+.top { font: 13px/1.5 ui-sans-serif, system-ui, sans-serif;
+       color: var(--dim); letter-spacing: .08em; text-transform: uppercase;
+       margin: 0 0 1.6rem; }
+.foot { margin-top: 4rem; padding-top: 1.4rem; border-top: 1px solid var(--line);
+        font: 13px/1.6 ui-sans-serif, system-ui, sans-serif; color: var(--dim); }
+</style>
+</head>
+<body>
+<main class="wrap">
+<p class="top">MortuaryLog</p>
+
+<h1>MortuaryLog</h1>
+<p>A case log for funeral service and embalmer apprentices in the United States.
+It holds the current licensing requirements for all fifty states, read from each
+board's own regulations, and keeps the record your board asks you to keep.</p>
+<p>Everything you log stays on your phone.</p>
+<h2>Documents</h2>
+<ul>
+<li><a href="./privacy/">Privacy policy</a></li>
+</ul>
+
+<div class="foot">Questions: studio82apps@gmail.com</div>
+</main>
+</body>
+</html>

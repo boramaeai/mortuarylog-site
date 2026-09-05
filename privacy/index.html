@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — MortuaryLog</title>
+<meta name="robots" content="index, follow">
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #fbfbf9; --fg: #16151a; --dim: #5d5b66; --line: #e2e0da;
+  --card: #ffffff; --accent: #2f5d50;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #14151a; --fg: #ecebe6; --dim: #a3a1ac; --line: #2c2d36;
+          --card: #1b1c23; --accent: #8fc4b2; }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 16px/1.65 ui-serif, Georgia, "Times New Roman", serif;
+  -webkit-text-size-adjust: 100%;
+}
+.wrap { max-width: 44rem; margin: 0 auto; padding: 3.5rem 1.4rem 6rem; }
+h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 .4rem; text-wrap: balance; }
+h2 { font-size: 1.15rem; margin: 2.6rem 0 .6rem; text-wrap: balance;
+     letter-spacing: -0.01em; }
+p, li { margin: .75rem 0; }
+ul { padding-left: 1.15rem; }
+li::marker { color: var(--dim); }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2.4rem 0; }
+code { font: 0.88em/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+       background: var(--card); border: 1px solid var(--line);
+       border-radius: 4px; padding: .1em .35em; }
+strong { font-weight: 700; }
+em { color: var(--dim); font-style: normal; font-size: .92em; }
+a { color: var(--accent); }
+.top { font: 13px/1.5 ui-sans-serif, system-ui, sans-serif;
+       color: var(--dim); letter-spacing: .08em; text-transform: uppercase;
+       margin: 0 0 1.6rem; }
+.foot { margin-top: 4rem; padding-top: 1.4rem; border-top: 1px solid var(--line);
+        font: 13px/1.6 ui-sans-serif, system-ui, sans-serif; color: var(--dim); }
+</style>
+</head>
+<body>
+<main class="wrap">
+<p class="top">MortuaryLog</p>
+<h1>Privacy Policy — MortuaryLog</h1>
+<p><em>Last updated: 5 September 2026</em></p>
+<p>MortuaryLog is a case log for funeral service and embalmer apprentices in the United States. This policy describes what the app does with information. It is written to be read, not to be survived.</p>
+<p><strong>The short version.</strong> Everything you log stays on your phone. We never receive it. We have no server that could hold it, no account to sign in to, and no analytics or advertising code in the app at all.</p>
+<hr>
+<h2>What stays on your device</h2>
+<p>The app stores this on your phone, in a database only the app can open:</p>
+<ul>
+<li><strong>Details about the people you served</strong> — name, address, age, sex, cause of death, whether an autopsy or organ donation took place, and anything else your state board's form asks for. This is information about someone else, and some of it is health information.</li>
+<li><strong>Your own details</strong> — your name, apprenticeship or registration number, and your supervisor's name and licence number.</li>
+<li><strong>Your work</strong> — which cases you logged, what you did on each one, hours worked per week, and any requirement you changed or added yourself.</li>
+<li><strong>Reports you prepared</strong> — which form, on what date, and which version of our rule data produced it.</li>
+</ul>
+<p><strong>We never receive any of it.</strong> It is not uploaded, backed up to us, or synchronised anywhere. If you delete the app, it is gone; keep a backup if you need it.</p>
+<p><strong>It is not encrypted.</strong> The database sits inside the app's private storage, which the operating system keeps other apps out of, but we do not add encryption of our own. A backup file you export is plain text and is not encrypted either — the app says so on screen when you make one. Treat both the way you would treat a paper case report.</p>
+<h2>What leaves your device</h2>
+<p>Two things, and only two.</p>
+<p><strong>1. Rule and form updates.</strong> When you open the app, it asks our update service (<code>u.expo.dev</code>, operated by Expo) whether newer requirement data is available. That request carries your platform, the app's runtime version, and the identifier of the data you already have. It carries <strong>nothing about you and nothing about any case</strong>. We use it for one purpose: getting corrected state requirements onto your phone when a board changes its rules. It is not optional, because an apprentice relying on out-of-date requirements can miss a licence deadline.</p>
+<p><strong>2. Anything you choose to send.</strong> When you prepare a form, export your details, or make a backup, the app hands the file to your phone's own share sheet or download folder. Where it goes next is your choice and is governed by whatever app you send it to. If you use the "my board's form is different" button, the app shows you the exact text before you send it — that text contains the state, the form, and what you typed, and <strong>no case details and nothing about any decedent</strong>.</p>
+<h2>What we do not do</h2>
+<ul>
+<li>We do not have user accounts, and you never sign in.</li>
+<li>We do not use advertising SDKs, analytics SDKs, crash reporting, or tracking of any kind. There are none in the app.</li>
+<li>We do not sell, share, or transfer your information, because we do not have it.</li>
+<li>We do not submit anything to your licensing board. The app prepares paperwork; filing it is yours to do.</li>
+</ul>
+<h2>Deleting your information</h2>
+<p>Settings has an "erase everything" option. It really erases — including the revision history the app otherwise keeps on purpose, so that a phone you sell or hand on does not carry a decedent's details. It cannot be undone, and the app asks you twice.</p>
+<p>There is nothing for us to delete on our side, because we never held it.</p>
+<h2>Children</h2>
+<p>MortuaryLog is a professional tool for licensed apprentices. It is not directed at children and we do not knowingly collect anything from anyone.</p>
+<h2>About the information you enter concerning other people</h2>
+<p>The people whose details you record are not our users, and they cannot ask us anything, because we never see their information. You are recording it to meet a requirement your state board places on you, and you hold it under whatever obligations your employer and your board place on you. The app is designed around that: it keeps that information on your device, it marks the most sensitive fields as staying on the device, and it warns you that an exported backup is not encrypted.</p>
+<h2>Changes to this policy</h2>
+<p>If this changes, the date at the top changes and the current version is always at this address. If a change ever means information starts leaving your device, we will say so plainly, in the app, before it happens.</p>
+<h2>Contact</h2>
+<p>Questions about this policy: <strong>studio82apps@gmail.com</strong></p>
+<div class="foot">MortuaryLog · a case log for funeral service and embalmer apprentices.</div>
+</main>
+</body>
+</html>
