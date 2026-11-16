@@ -46,7 +46,7 @@ a { color: var(--accent); }
 <main class="wrap">
 <p class="top">MortuaryLog</p>
 <h1>Privacy Policy — MortuaryLog</h1>
-<p><em>Last updated: 5 September 2026</em></p>
+<p><em>Last updated: 16 November 2026</em></p>
 <p>MortuaryLog is a case log for funeral service and embalmer apprentices in the United States. This policy describes what the app does with information. It is written to be read, not to be survived.</p>
 <p><strong>The short version.</strong> Everything you log stays on your phone. We never receive it. We have no server that could hold it, no account to sign in to, and no analytics or advertising code in the app at all.</p>
 <hr>
@@ -59,7 +59,9 @@ a { color: var(--accent); }
 <li><strong>Reports you prepared</strong> — which form, on what date, and which version of our rule data produced it.</li>
 </ul>
 <p><strong>We never receive any of it.</strong> There is no account, no server of ours holds it, and nothing is synchronised to us. If you delete the app, our copy is gone — there never was one.</p>
-<p><strong>It is not encrypted.</strong> The database sits inside the app's private storage, which the operating system keeps other apps out of, but we do not add encryption of our own. A backup file you export is plain text and is not encrypted either — the app says so on screen when you make one. Treat both the way you would treat a paper case report.</p>
+<p><strong>The database on your phone is not encrypted.</strong> It sits inside the app's private storage, which the operating system keeps other apps out of, but we do not add encryption of our own. Treat it the way you would treat a paper case report.</p>
+<p><strong>A backup file you export can be.</strong> When you export one, the app asks whether to lock it with a password you choose. If you set one, the file is encrypted with it (AES-256) and cannot be read without that password. The password is never sent anywhere, is not stored in the app, and cannot be recovered — not by us, not by anyone. If you lose it, that file cannot be opened again. You can also export without a password; then the file is plain text, and the app says so on screen. Backups made before this option existed are plain text and still restore.</p>
+<p><strong>Files written by automatic backup are not locked.</strong> If you switch on automatic backup to a folder you choose, the app writes plain-text files there every time your record changes, because it cannot ask you for a password each time. The app says this on the same screen.</p>
 <h2>What leaves your device</h2>
 <p>Three things.</p>
 <p><strong>1. Rule and form updates.</strong> When you open the app, it asks our update service (<code>u.expo.dev</code>, operated by Expo) whether newer requirement data is available. That request carries your platform, the app's runtime version, and the identifier of the data you already have. It carries <strong>nothing about you and nothing about any case</strong>. We use it for one purpose: getting corrected state requirements onto your phone when a board changes its rules. It is not optional, because an apprentice relying on out-of-date requirements can miss a licence deadline.</p>
@@ -78,7 +80,7 @@ a { color: var(--accent); }
 <h2>Children</h2>
 <p>MortuaryLog is a professional tool for licensed apprentices. It is not directed at children and we do not knowingly collect anything from anyone.</p>
 <h2>About the information you enter concerning other people</h2>
-<p>The people whose details you record are not our users, and they cannot ask us anything, because we never see their information. You are recording it to meet a requirement your state board places on you, and you hold it under whatever obligations your employer and your board place on you. The app is designed around that: it keeps that information on your device, it marks the most sensitive fields as staying on the device, and it warns you that an exported backup is not encrypted.</p>
+<p>The people whose details you record are not our users, and they cannot ask us anything, because we never see their information. You are recording it to meet a requirement your state board places on you, and you hold it under whatever obligations your employer and your board place on you. The app is designed around that: it keeps that information on your device, it marks the most sensitive fields as staying on the device, it lets you lock an exported backup with a password, and it says plainly when a file is not locked.</p>
 <h2>Changes to this policy</h2>
 <p>If this changes, the date at the top changes and the current version is always at this address. If a change ever means information starts leaving your device, we will say so plainly, in the app, before it happens.</p>
 <h2>Contact</h2>
